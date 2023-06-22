@@ -22,6 +22,8 @@
 		88F334222A450C8200E4A894 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88F334212A450C8200E4A894 /* GoogleService-Info.plist */; };
 		88F334242A45123F00E4A894 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F334232A45123F00E4A894 /* User.swift */; };
 		88F334262A45124A00E4A894 /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F334252A45124A00E4A894 /* BlogPost.swift */; };
+		88F334292A45154C00E4A894 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F334282A45154C00E4A894 /* SignInViewController.swift */; };
+		88F3342B2A4515AF00E4A894 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F3342A2A4515AF00E4A894 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		88F334212A450C8200E4A894 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		88F334232A45123F00E4A894 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		88F334252A45124A00E4A894 /* BlogPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPost.swift; sourceTree = "<group>"; };
+		88F334282A45154C00E4A894 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		88F3342A2A4515AF00E4A894 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BBADF65E3187B2D9DB7089C8 /* Pods_AppBlog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppBlog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -117,6 +121,7 @@
 		8829183E2A44FD75009FD2E0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				88F334272A45152D00E4A894 /* Auth */,
 				882918502A45032D009FD2E0 /* CoreTab */,
 			);
 			path = Controller;
@@ -152,6 +157,15 @@
 				8829184E2A44FF0D009FD2E0 /* TabBarViewController.swift */,
 			);
 			path = CoreTab;
+			sourceTree = "<group>";
+		};
+		88F334272A45152D00E4A894 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				88F334282A45154C00E4A894 /* SignInViewController.swift */,
+				88F3342A2A4515AF00E4A894 /* SignUpViewController.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		9667F5D5BFC573BA2D2082A0 /* Pods */ = {
@@ -286,8 +300,10 @@
 				8829184F2A44FF0D009FD2E0 /* TabBarViewController.swift in Sources */,
 				882918422A44FDF9009FD2E0 /* ProfileViewController.swift in Sources */,
 				882918472A44FE77009FD2E0 /* DataBaseManager.swift in Sources */,
+				88F334292A45154C00E4A894 /* SignInViewController.swift in Sources */,
 				8829182B2A44FB06009FD2E0 /* SceneDelegate.swift in Sources */,
 				88F334242A45123F00E4A894 /* User.swift in Sources */,
+				88F3342B2A4515AF00E4A894 /* SignUpViewController.swift in Sources */,
 				8829184B2A44FE95009FD2E0 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
