@@ -19,6 +19,7 @@
 		882918492A44FE85009FD2E0 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882918482A44FE85009FD2E0 /* AuthManager.swift */; };
 		8829184B2A44FE95009FD2E0 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8829184A2A44FE95009FD2E0 /* StorageManager.swift */; };
 		8829184F2A44FF0D009FD2E0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8829184E2A44FF0D009FD2E0 /* TabBarViewController.swift */; };
+		88F334222A450C8200E4A894 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88F334212A450C8200E4A894 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		882918482A44FE85009FD2E0 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		8829184A2A44FE95009FD2E0 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		8829184E2A44FF0D009FD2E0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		88F334212A450C8200E4A894 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BBADF65E3187B2D9DB7089C8 /* Pods_AppBlog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppBlog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,12 +83,12 @@
 		882918272A44FB06009FD2E0 /* AppBlog */ = {
 			isa = PBXGroup;
 			children = (
-				882918402A44FD7E009FD2E0 /* Manager */,
-				8829183F2A44FD7A009FD2E0 /* Other */,
 				8829183E2A44FD75009FD2E0 /* Controller */,
-				8829183D2A44FD6F009FD2E0 /* View */,
-				8829183C2A44FD69009FD2E0 /* Models */,
 				882918362A44FB07009FD2E0 /* Info.plist */,
+				882918402A44FD7E009FD2E0 /* Manager */,
+				8829183C2A44FD69009FD2E0 /* Models */,
+				8829183F2A44FD7A009FD2E0 /* Other */,
+				8829183D2A44FD6F009FD2E0 /* View */,
 			);
 			path = AppBlog;
 			sourceTree = "<group>";
@@ -117,8 +119,9 @@
 		8829183F2A44FD7A009FD2E0 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				882918312A44FB07009FD2E0 /* Assets.xcassets */,
 				882918282A44FB06009FD2E0 /* AppDelegate.swift */,
+				882918312A44FB07009FD2E0 /* Assets.xcassets */,
+				88F334212A450C8200E4A894 /* GoogleService-Info.plist */,
 				8829182A2A44FB06009FD2E0 /* SceneDelegate.swift */,
 			);
 			path = Other;
@@ -127,9 +130,9 @@
 		882918402A44FD7E009FD2E0 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				882918442A44FE5F009FD2E0 /* IAPManager.swift */,
-				882918462A44FE77009FD2E0 /* DataBaseManager.swift */,
 				882918482A44FE85009FD2E0 /* AuthManager.swift */,
+				882918462A44FE77009FD2E0 /* DataBaseManager.swift */,
+				882918442A44FE5F009FD2E0 /* IAPManager.swift */,
 				8829184A2A44FE95009FD2E0 /* StorageManager.swift */,
 			);
 			path = Manager;
@@ -151,7 +154,6 @@
 				614114CD689116A382B34251 /* Pods-AppBlog.debug.xcconfig */,
 				48AF65C7D2AC999C998FA85D /* Pods-AppBlog.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -217,6 +219,7 @@
 			files = (
 				882918352A44FB07009FD2E0 /* LaunchScreen.storyboard in Resources */,
 				882918322A44FB07009FD2E0 /* Assets.xcassets in Resources */,
+				88F334222A450C8200E4A894 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
