@@ -24,6 +24,10 @@
 		88F334262A45124A00E4A894 /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F334252A45124A00E4A894 /* BlogPost.swift */; };
 		88F334292A45154C00E4A894 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F334282A45154C00E4A894 /* SignInViewController.swift */; };
 		88F3342B2A4515AF00E4A894 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F3342A2A4515AF00E4A894 /* SignUpViewController.swift */; };
+		88F3342F2A45177600E4A894 /* PayWallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F3342E2A45177600E4A894 /* PayWallViewController.swift */; };
+		88F334312A451BE300E4A894 /* PayWallHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F334302A451BE300E4A894 /* PayWallHeaderView.swift */; };
+		88F334332A451D7600E4A894 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F334322A451D7600E4A894 /* Extension.swift */; };
+		88F334352A45233800E4A894 /* PayWallDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F334342A45233800E4A894 /* PayWallDescriptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +51,10 @@
 		88F334252A45124A00E4A894 /* BlogPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPost.swift; sourceTree = "<group>"; };
 		88F334282A45154C00E4A894 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		88F3342A2A4515AF00E4A894 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		88F3342E2A45177600E4A894 /* PayWallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallViewController.swift; sourceTree = "<group>"; };
+		88F334302A451BE300E4A894 /* PayWallHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallHeaderView.swift; sourceTree = "<group>"; };
+		88F334322A451D7600E4A894 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		88F334342A45233800E4A894 /* PayWallDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallDescriptionView.swift; sourceTree = "<group>"; };
 		BBADF65E3187B2D9DB7089C8 /* Pods_AppBlog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppBlog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				882918332A44FB07009FD2E0 /* LaunchScreen.storyboard */,
+				88F334302A451BE300E4A894 /* PayWallHeaderView.swift */,
+				88F334342A45233800E4A894 /* PayWallDescriptionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -123,6 +133,8 @@
 			children = (
 				88F334272A45152D00E4A894 /* Auth */,
 				882918502A45032D009FD2E0 /* CoreTab */,
+				88F3342D2A45174300E4A894 /* Other */,
+				88F3342C2A45173100E4A894 /* Posts */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -134,6 +146,7 @@
 				882918312A44FB07009FD2E0 /* Assets.xcassets */,
 				88F334212A450C8200E4A894 /* GoogleService-Info.plist */,
 				8829182A2A44FB06009FD2E0 /* SceneDelegate.swift */,
+				88F334322A451D7600E4A894 /* Extension.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -166,6 +179,21 @@
 				88F3342A2A4515AF00E4A894 /* SignUpViewController.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		88F3342C2A45173100E4A894 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		88F3342D2A45174300E4A894 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				88F3342E2A45177600E4A894 /* PayWallViewController.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		9667F5D5BFC573BA2D2082A0 /* Pods */ = {
@@ -292,19 +320,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F334312A451BE300E4A894 /* PayWallHeaderView.swift in Sources */,
 				8829182D2A44FB06009FD2E0 /* HomeViewController.swift in Sources */,
 				882918492A44FE85009FD2E0 /* AuthManager.swift in Sources */,
 				88F334262A45124A00E4A894 /* BlogPost.swift in Sources */,
 				882918452A44FE5F009FD2E0 /* IAPManager.swift in Sources */,
 				882918292A44FB06009FD2E0 /* AppDelegate.swift in Sources */,
 				8829184F2A44FF0D009FD2E0 /* TabBarViewController.swift in Sources */,
+				88F334332A451D7600E4A894 /* Extension.swift in Sources */,
 				882918422A44FDF9009FD2E0 /* ProfileViewController.swift in Sources */,
 				882918472A44FE77009FD2E0 /* DataBaseManager.swift in Sources */,
 				88F334292A45154C00E4A894 /* SignInViewController.swift in Sources */,
 				8829182B2A44FB06009FD2E0 /* SceneDelegate.swift in Sources */,
 				88F334242A45123F00E4A894 /* User.swift in Sources */,
+				88F3342F2A45177600E4A894 /* PayWallViewController.swift in Sources */,
 				88F3342B2A4515AF00E4A894 /* SignUpViewController.swift in Sources */,
 				8829184B2A44FE95009FD2E0 /* StorageManager.swift in Sources */,
+				88F334352A45233800E4A894 /* PayWallDescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
