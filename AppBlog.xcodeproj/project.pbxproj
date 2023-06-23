@@ -28,6 +28,7 @@
 		88F334312A451BE300E4A894 /* PayWallHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F334302A451BE300E4A894 /* PayWallHeaderView.swift */; };
 		88F334332A451D7600E4A894 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F334322A451D7600E4A894 /* Extension.swift */; };
 		88F334352A45233800E4A894 /* PayWallDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F334342A45233800E4A894 /* PayWallDescriptionView.swift */; };
+		88F334372A452FFC00E4A894 /* SignInHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F334362A452FFC00E4A894 /* SignInHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		88F334302A451BE300E4A894 /* PayWallHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallHeaderView.swift; sourceTree = "<group>"; };
 		88F334322A451D7600E4A894 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		88F334342A45233800E4A894 /* PayWallDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallDescriptionView.swift; sourceTree = "<group>"; };
+		88F334362A452FFC00E4A894 /* SignInHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInHeaderView.swift; sourceTree = "<group>"; };
 		BBADF65E3187B2D9DB7089C8 /* Pods_AppBlog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppBlog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 				882918332A44FB07009FD2E0 /* LaunchScreen.storyboard */,
 				88F334302A451BE300E4A894 /* PayWallHeaderView.swift */,
 				88F334342A45233800E4A894 /* PayWallDescriptionView.swift */,
+				88F334362A452FFC00E4A894 /* SignInHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				88F334292A45154C00E4A894 /* SignInViewController.swift in Sources */,
 				8829182B2A44FB06009FD2E0 /* SceneDelegate.swift in Sources */,
 				88F334242A45123F00E4A894 /* User.swift in Sources */,
+				88F334372A452FFC00E4A894 /* SignInHeaderView.swift in Sources */,
 				88F3342F2A45177600E4A894 /* PayWallViewController.swift in Sources */,
 				88F3342B2A4515AF00E4A894 /* SignUpViewController.swift in Sources */,
 				8829184B2A44FE95009FD2E0 /* StorageManager.swift in Sources */,
